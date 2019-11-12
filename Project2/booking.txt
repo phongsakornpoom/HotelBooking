@@ -1,0 +1,9 @@
+
+name          : Shuvra
+fuji hotel
+country       : Japan
+Hotel rating  : 5
+check-in date : 02/07/2019
+check-out date: 01/01/2020
+Total price   : 1372500
+

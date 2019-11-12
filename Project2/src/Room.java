@@ -1,28 +1,30 @@
-
-public class Room {
-	String roomname,amenities;
-
+public class Room 
+{	
+	String type;
+	
 	public Room() 
 	{
-	roomname="none";
-	amenities="none";
+		type = "Default Room";
 	}
-	public Room(String roomname,String amenity)
+	
+	public Room(String roomType)
 	{
-		this.roomname = roomname;
-		this.amenities = amenity;
+		this.type = roomType;
 	}
-	public void setRoom(String room)
+	
+	public String getType() 
 	{
-		this.roomname = room;
+		return type;
 	}
-
-
-
-
+	
+	public void setType(String type) 
+	{
+		this.type = type;
+	}
+	
 	public String toString() 
 	{
-		return "Your room is "+roomname+"\nAmenities: "+amenities ;
+		return "Room Type: "+type;
 	}
 
 }
